@@ -12,32 +12,22 @@ To add an app icon to a Flutter mobile app, follow these steps:
     
 
 ```yaml
-flutter:
-  assets:
-    - assets/icon/icon.png
-    - assets/icon/icon_2x.png
-    - assets/icon/icon_3x.png
-    - assets/icon/icon_4x.png
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
 ```
 
 1. Run the following command to update the Flutter app with the new icons:
     
 
 ```bash
+flutter pub add flutter_launcher_icons
 flutter pub get
+flutter pub run flutter_launcher_icons:main
 ```
 
-1. Finally, specify the app icon in the `AndroidManifest.xml` file for Android and the `Info.plist` file for iOS. For example, in the `AndroidManifest.xml` file, you would add the following line:
-    
-
-```xml
-<application
-    android:icon="@mipmap/ic_launcher"
-    ...>
-```
-
-Replace "ic\_launcher" with the name of your app icon file.
-
+Now hot reload the app.
 That's it! Your Flutter app should now use the app icon that you specified.
 
 # Hope you like this... Happy coding...
