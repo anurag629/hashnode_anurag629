@@ -42,8 +42,6 @@ In addition to the basic syntax shown above, list comprehensions can also includ
 pairs = [(a, b) for a in range(3) for b in range(5)]
 ```
 
-This will create a new list containing all possible pairs of a and b, resulting in the list \[(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (1, 0), (1, 1), (1, 2), (1, 3), (1, 4), (2, 0), (2, 1), (2, 2), (2, 3), (2, 4)\]
-
 This will create a new list containing all possible pairs of a and b, resulting in the list \[(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (1, 0), (1, 1), (1, 2), (1, 3), (1, 4), (2, 0), (2, 1), (2, 2), (2, 3), (2, 4)\].
 
 List comprehensions can also be used to create dictionaries and sets. To create a dictionary using a list comprehension, you can use the following syntax:
