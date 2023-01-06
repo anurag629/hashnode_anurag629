@@ -2,6 +2,10 @@
 
 # Day 1 of **100 Days Data Science Bootcamp from noob to expert.**
 
+## **GitHub link:** [**Complete-Data-Science-Bootcamp**](https://github.com/anurag629/Complete-Data-Science-Bootcamp)
+
+## **Main Post:** [**Complete-Data-Science-Bootcamp**](https://anurag629.hashnode.dev/complete-data-science-roadmap-from-noob-to-expert)
+
 # Introduction
 
 * Python is a general purpose high level programming language.
@@ -68,7 +72,8 @@ def (a reserved word in Python)
 
 ### Python contains the following inbuilt data types
 
-1) Int 2) Float 3) Complex 4) Bool 5) Str 6) List 7) Tuple 8) Set 9) Frozenset 10) Dict 11) None
+1. Int 2) Float 3) Complex 4) Bool 5) Str 6) List 7) Tuple 8) Set 9) Frozenset 10) Dict 11) None
+    
 
 * type() method is used to check the type of variable
     
@@ -186,7 +191,8 @@ print(b)
 
 #### Slicing of Strings:
 
-1) slice means a piece 2) \[ \] operator is called slice operator, which can be used to retrieve parts of String. 3) In Python Strings follows zero based index. 4) The index can be either +ve or -ve. 5) +ve index means forward direction from Left to Right 6) -ve index means backward direction from Right to Left
+1. slice means a piece 2) \[ \] operator is called slice operator, which can be used to retrieve parts of String. 3) In Python Strings follows zero based index. 4) The index can be either +ve or -ve. 5) +ve index means forward direction from Left to Right 6) -ve index means backward direction from Right to Left
+    
 
 ```python
 a = "Let's code great and change the world"
